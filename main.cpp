@@ -8,8 +8,18 @@ int main()
 	
 	cin >> current;
 
-	while (cin >> prev >> current && current <= prev)
+	while (cin >> current)
 	{
-		
+		if (current <= prev)
+	{
+		cout << current << " ";
 	}
+	else
+	{
+	cout << endl;
+	break;
+	}
+	}
+
+	return 0;
 }
