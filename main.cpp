@@ -5,7 +5,11 @@ using namespace std;
 int main()
 {
 	int prev, current;
-	/* ****************************
-	// Complete this code.
-	*************************** */
+	
+	cin >> current;
+
+	while (cin >> prev >> current && current <= prev)
+	{
+		
+	}
 }
