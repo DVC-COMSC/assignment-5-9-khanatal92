@@ -14,9 +14,8 @@ int main()
 			break;
 		} else if (current != prev)
 		{
-			cout << ' ';
-			cout << current;
-			current = prev;
+			cout << ' ' << current;
+			prev = current;
 		}
 	}
 	return 0;
