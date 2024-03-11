@@ -6,7 +6,7 @@ int main()
 {
 	int prev, current;
 	
-	cin >> current;
+	cin >> prev;
 
 	while (cin >> current)
 	{
